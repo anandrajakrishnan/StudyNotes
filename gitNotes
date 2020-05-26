@@ -1,0 +1,16 @@
+#to make a folder managed/monitored by git
+git init
+#to add a new component/file to git repository
+git add <filename>
+#to commit changes to git
+git commit <filename> -m "short message on the change that is being commited"
+#to check status of files managed by git
+git status
+#to check git logs
+git log
+#to see difference between 2 versions of a file
+git diff <oldHash> <newHash>
+#find all git objects
+find .git/objects
+#see the change made to a git object
+git cat-file -p <hashValue>
