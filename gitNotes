@@ -13,4 +13,4 @@ git diff <oldHash> <newHash>
 #find all git objects
 find .git/objects
 #see the change made to a git object
-git cat-file -p <hashValue>
+git cat-file -p <blobValue>
